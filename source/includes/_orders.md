@@ -59,9 +59,9 @@ This endpoint determines whether or not your Order information is valid.
 Parameter | Required | Description
 --------- | ------- | -----------
 `license_plate` | yes | a string containing the "license plate", e.g. PNEOG (obtained from obligations end point)
-`obligation_id` | yes | an number identifying the obligation to be used (obtained from obligations endpoint)
+`obligation_id` | yes | a number identifying the obligation to be used (obtained from obligations endpoint)
 `obligee_name` | no | a string containing an obligee name (for obligee-specific premiums)
-`bond_amount` | yes | an number representing the bond amount in cents
+`bond_amount` | yes | a number representing the bond amount in cents
 `principal_name` | yes | a string containing the principal's name
 `principal_address1` | yes | a string containing the first line of the principal's address
 `principal_address2` | no | a string containing the second line of the principal's address
@@ -200,9 +200,9 @@ This endpoint allows you to create an Order.
 Parameter | Required | Description
 --------- | ------- | -----------
 `license_plate` | yes | a string containing the "license plate", e.g. PNEOG (obtained from obligations end point)
-`obligation_id` | yes | an number identifying the obligation to be used (obtained from obligations endpoint)
+`obligation_id` | yes | a number identifying the obligation to be used (obtained from obligations endpoint)
 `obligee_name` | no | a string containing an obligee name (for obligee-specific premiums)
-`bond_amount` | yes | an number representing the bond amount in cents
+`bond_amount` | yes | a number representing the bond amount in cents
 `principal_name` | yes | a string containing the principal's name
 `principal_address1` | yes | a string containing the first line of the principal's address
 `principal_address2` | no | a string containing the second line of the principal's address
