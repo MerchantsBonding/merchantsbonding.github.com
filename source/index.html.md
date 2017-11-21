@@ -8,15 +8,12 @@ toc_footers:
   - <a href='https://merchantsbonding.com'>Merchants Bonding Company</a>
 
 includes:
+  - introduction
   - obligations
   - errors
 
 search: true
 ---
-
-# Introduction
-
-Merchants Bonding API.
 
 # Authentication
 
