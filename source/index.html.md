@@ -11,6 +11,7 @@ includes:
   - introduction
   - authentication
   - obligations
+  - orders
   - errors
 
 search: true
