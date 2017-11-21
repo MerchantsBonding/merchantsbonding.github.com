@@ -49,13 +49,12 @@ curl "https://api.merchantsbonding.com/v1/obligations"
         "bond_amounts":[10000],
         "term_length":4
       },
-      ...
       {
         "id":140334,
         "state":"CA",
         "name":"Notary Public Errors \u0026 Omissions Policy",
         "license_plate":"PNEO",
-        "bond_amounts":[1000,3000,5000,10000,15000,20000,25000,30000,35000,50000,75000,100000],
+        "bond_amounts":[1000,3000,5000],
         "term_length":4
       }
 ```
