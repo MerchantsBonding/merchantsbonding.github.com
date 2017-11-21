@@ -1,3 +1,0 @@
-# Introduction
-
-Merchants Bonding API.
