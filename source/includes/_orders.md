@@ -3,7 +3,7 @@
 ## Validate Order
 
 ```shell
-curl -X "POST" "https://api.mbctestweb.com/api/v1/orders/validate" \
+curl -X "POST" "https://api.mbctestweb.com/v1/orders/validate" \
      -H 'API_KEY: qe7Rz6/7HI01HBfTQGqceADLG8fEfySc9jrTw9HYTZc=' \
      -H 'Content-Type: application/json' \
      -d $'{
@@ -77,7 +77,7 @@ Parameter | Required | Description
 ## Retrieve an Order
 
 ```shell
-curl -X "GET" "https://api.mbctestweb.com/api/v1/orders/1" \
+curl -X "GET" "https://api.mbctestweb.com/v1/orders/1"
 ```
 
 > JSON response, when successful:
@@ -129,7 +129,7 @@ Parameter | Required | Description
 ## Create Order
 
 ```shell
-curl -X "POST" "https://api.mbctestweb.com/api/v1/orders" \
+curl -X "POST" "https://api.mbctestweb.com/v1/orders" \
      -H 'API_KEY: qe7Rz6/7HI01HBfTQGqceADLG8fEfySc9jrTw9HYTZc=' \
      -H 'Content-Type: application/json' \
      -d $'{
