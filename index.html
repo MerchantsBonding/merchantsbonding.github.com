@@ -298,7 +298,7 @@
 <p><code>GET https://api.merchantsbonding.com/v1/obligations</code></p>
 <h3 id='query-parameters'>Query Parameters</h3>
 <p>None.</p>
-<h1 id='orders'>Orders</h1><h2 id='validate-order'>Validate Order</h2><pre class="highlight shell tab-shell"><code>curl -X <span class="s2">"POST"</span> <span class="s2">"https://api.mbctestweb.com/api/v1/orders/validate"</span> <span class="se">\</span>
+<h1 id='orders'>Orders</h1><h2 id='validate-order'>Validate Order</h2><pre class="highlight shell tab-shell"><code>curl -X <span class="s2">"POST"</span> <span class="s2">"https://api.mbctestweb.com/v1/orders/validate"</span> <span class="se">\</span>
      -H <span class="s1">'API_KEY: qe7Rz6/7HI01HBfTQGqceADLG8fEfySc9jrTw9HYTZc='</span> <span class="se">\</span>
      -H <span class="s1">'Content-Type: application/json'</span> <span class="se">\</span>
      -d <span class="s1">$'{
@@ -358,7 +358,7 @@
 <tr>
 <td><code>obligation_id</code></td>
 <td>yes</td>
-<td>an number identifying the obligation to be used (obtained from obligations endpoint)</td>
+<td>a number identifying the obligation to be used (obtained from obligations endpoint)</td>
 </tr>
 <tr>
 <td><code>obligee_name</code></td>
@@ -368,7 +368,7 @@
 <tr>
 <td><code>bond_amount</code></td>
 <td>yes</td>
-<td>an number representing the bond amount in cents</td>
+<td>a number representing the bond amount in cents</td>
 </tr>
 <tr>
 <td><code>principal_name</code></td>
@@ -426,7 +426,7 @@
 <td>a string containing the two-character state code for the obligation</td>
 </tr>
 </tbody></table>
-<h2 id='retrieve-an-order'>Retrieve an Order</h2><pre class="highlight shell tab-shell"><code>curl -X <span class="s2">"GET"</span> <span class="s2">"https://api.mbctestweb.com/api/v1/orders/1"</span> <span class="se">\</span>
+<h2 id='retrieve-an-order'>Retrieve an Order</h2><pre class="highlight shell tab-shell"><code>curl -X <span class="s2">"GET"</span> <span class="s2">"https://api.mbctestweb.com/v1/orders/1"</span>
 </code></pre>
 <blockquote>
 <p>JSON response, when successful:</p>
@@ -477,7 +477,7 @@
 <td>a number representing the Order&#39;s ID</td>
 </tr>
 </tbody></table>
-<h2 id='create-order'>Create Order</h2><pre class="highlight shell tab-shell"><code>curl -X <span class="s2">"POST"</span> <span class="s2">"https://api.mbctestweb.com/api/v1/orders"</span> <span class="se">\</span>
+<h2 id='create-order'>Create Order</h2><pre class="highlight shell tab-shell"><code>curl -X <span class="s2">"POST"</span> <span class="s2">"https://api.mbctestweb.com/v1/orders"</span> <span class="se">\</span>
      -H <span class="s1">'API_KEY: qe7Rz6/7HI01HBfTQGqceADLG8fEfySc9jrTw9HYTZc='</span> <span class="se">\</span>
      -H <span class="s1">'Content-Type: application/json'</span> <span class="se">\</span>
      -d <span class="s1">$'{
@@ -553,7 +553,7 @@
 <tr>
 <td><code>obligation_id</code></td>
 <td>yes</td>
-<td>an number identifying the obligation to be used (obtained from obligations endpoint)</td>
+<td>a number identifying the obligation to be used (obtained from obligations endpoint)</td>
 </tr>
 <tr>
 <td><code>obligee_name</code></td>
@@ -563,7 +563,7 @@
 <tr>
 <td><code>bond_amount</code></td>
 <td>yes</td>
-<td>an number representing the bond amount in cents</td>
+<td>a number representing the bond amount in cents</td>
 </tr>
 <tr>
 <td><code>principal_name</code></td>
