@@ -126,6 +126,46 @@ Parameter | Required | Description
 --------- | ------- | -----------
 `id` | yes | a number representing the Order's ID
 
+## Retrieve an Order's documents
+
+```shell
+curl -X "GET" "https://api.mbctestweb.com/v1/orders/1/documents"
+```
+
+> JSON response, when successful:
+
+```json
+{
+	"success": true,
+  "documents":[
+    {
+      "filename": "Bond.pdf",
+      "url": "https://example.com/Bond.pdf"
+    }
+  ]
+}
+```
+
+> JSON response, when unsuccessful:
+
+```json
+{
+	"success": false
+}
+```
+
+This endpoint allows you to retrieve the documents for a single Order.
+
+### HTTP Request
+
+`GET https://api.merchantsbonding.com/v1/orders/1/documents`
+
+### Query Parameters
+
+Parameter | Required | Description
+--------- | ------- | -----------
+`id` | yes | a number representing the Order's ID
+
 ## Create Order
 
 ```shell
